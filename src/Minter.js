@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { connectWallet, getCurrentWalletConnected, mintNFT } from "./utils/interact.js";
 import '/Minter.css';
+import { connectWallet, getCurrentWalletConnected, mintNFT } from "./utils/interact.js";
+
 
 const Minter = (props) => {
 
