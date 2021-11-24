@@ -1,8 +1,5 @@
 import { useEffect, useState } from "react";
-import {
-  connectWallet,
-  getCurrentWalletConnected //import here
-} from "./Utils/Interact";
+import { connectWallet, getCurrentWalletConnected, mintNFT } from "./utils/interact.js";
 
 const Minter = (props) => {
 
@@ -51,9 +48,10 @@ const Minter = (props) => {
     setWallet(walletResponse.address);
   };
 
-  const onMintPressed = async () => { //TODO: implement
-    
-  };
+  const onMintPressed = async () => {
+    const { status } = await mintNFT(url, name, description);
+    setStatus(status);
+};
 
   return (
     <div className="Minter">

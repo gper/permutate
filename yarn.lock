@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@alch/alchemy-web3@^1.0.1":
+"@alch/alchemy-web3@^1.1.8":
   "integrity" "sha512-MvASzj96xJpGM3wd3sk0xiIHNKyDDUSP0NA0PgjVuK4YW9DYAQiVV4oDxUXJIt6dnAfkqz5sKQS8ZkT2zTGxFQ=="
   "resolved" "https://registry.npmjs.org/@alch/alchemy-web3/-/alchemy-web3-1.1.8.tgz"
   "version" "1.1.8"
