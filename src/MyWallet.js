@@ -6,3 +6,17 @@ import { HashLink as Link} from 'react-router-hash-link';
 
 
 </div>
+
+
+export const Header = (props) => {
+<nav className ='navbar navbar-default'>
+      <div className ='container'>
+        <div className = "navbar_header">
+          <ul className="nav navbar-nav">
+            <li><Link to={"/MyWallet"}> My Wallet</Link></li> 
+          </ul>
+        </div>
+      </div>
+    </nav>
+    );
+};
